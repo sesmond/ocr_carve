@@ -19,6 +19,7 @@ def show(img, title='无标题'):
     :param name:
     :return:
     """
+    return
     font = FontProperties(fname='/Users/minjianxu/tesstutorial/font/simhei.ttf')
     plt.title(title, fontsize='large', fontweight='bold', FontProperties=font)
     plt.imshow(img)
